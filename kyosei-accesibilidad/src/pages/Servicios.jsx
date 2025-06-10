@@ -10,7 +10,7 @@ const Servicios = () => {
      
       <main className="contenedor">
         {/* Título principal */}
-        <h1 className="titulo">Servicios</h1>
+        <h1 className="titulo" color="black">Servicios</h1>
 
         {/* <h2 id="cursos">Cursos</h2> */}
         {/* Sección de cursos */}
