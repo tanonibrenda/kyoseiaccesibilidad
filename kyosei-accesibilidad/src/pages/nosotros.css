@@ -1,98 +1,75 @@
-/* Estilos generales */
-main {
+/* Contenedor principal */
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.contenedor {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   padding: 40px;
   gap: 20px;
 }
 
-/* Imagen con esquinas redondeadas */
-img {
-  border-radius: 6px;
-  max-width: 100%;
-  height: auto;
-}
-
-/* Texto */
-h1, h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #004aad;
-}
-
-p {
-  font-size: 1.2rem;
-  color: #333;
-}
-
+/* Título completamente centrado */
 .titulo {
   font-size: 2.5rem;
   font-weight: bold;
   color: #004aad;
   text-align: center;
+  width: 100%;
   margin-bottom: 20px;
 }
 
+/* Contenido con imagen y texto en dos columnas */
+.contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 
-/* 📱 Móviles (360px - 390px) */
-@media (max-width: 390px) {
-  main {
+/* Imagen a la izquierda */
+.imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen img {
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Texto a la derecha */
+.texto {
+  flex: 2;
+  text-align: left;
+  padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contenido {
     flex-direction: column;
     text-align: center;
-    padding: 20px;
   }
 
-  h1, h2 {
-    font-size: 1.6rem;
+  .titulo {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
   }
 
   p {
     font-size: 1rem;
   }
 
-  img {
-    width: 30%;
-  }
-}
-
-/* 📲 Tabletas (768px - 810px) */
-@media (max-width: 810px) {
-  main {
-    flex-direction: column;
-    text-align: center;
-    padding: 30px;
-  }
-
-  h1, h2 {
-    font-size: 1.8rem;
-  }
-
-  p {
-    font-size: 1.1rem;
-  }
-
-  img {
-    width: 80%;
-  }
-}
-
-/* 💻 Computadoras (1366px - 1920px) */
-@media (min-width: 1366px) {
-  main {
-    flex-direction: row;
-    padding: 50px;
-  }
-
-  h1, h2 {
-    font-size: 2.4rem;
-  }
-
-  p {
-    font-size: 1.4rem;
-  }
-
-  img {
-    width: 100%;
+  .imagen {
+    margin-bottom: 20px;
   }
 }
