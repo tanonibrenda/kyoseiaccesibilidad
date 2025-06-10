@@ -1,18 +1,22 @@
 import React from "react";
-import Header from "./components/Header.jsx"; // Importa el Header
-import Home from "./pages/Home.jsx";
-import Footer from "./components/Footer.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import Nosotros from "./pages/Nosotros.jsx";  // ✅ Importa la página Nosotros
+import Footer from "./components/Footer";
 import "./styles/header.css";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />  {/* Página principal */}
+        <Route path="/nosotros" element={<Nosotros />} />  {/* Página Nosotros */}
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 
