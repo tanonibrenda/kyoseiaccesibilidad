@@ -1,0 +1,44 @@
+📂 kyoseyaccesibiliad
+│── 📂 public               # Archivos estáticos (favicon, imágenes públicas)
+│    ├── favicon.ico       # Icono del sitio
+│    ├── index.html        # Archivo HTML principal
+│    ├── assets/           # Carpeta para imágenes públicas
+│
+│── 📂 src                  # Código fuente principal
+│    ├── 📂 components      # Componentes reutilizables (Header, Footer, Botones, etc.)
+│    │    ├── Header.jsx
+│    │    ├── Footer.jsx
+│    │    ├── Navbar.jsx
+│    │    ├── Button.jsx
+│    │
+│    ├── 📂 pages           # Páginas principales del sitio
+│    │    ├── Home.jsx
+│    │    ├── Nosotros.jsx
+│    │    ├── Accesibilidad.jsx
+│    │    ├── Servicios.jsx
+│    │    ├── Contacto.jsx
+│    │    ├── Carrito.jsx
+│    │
+│    ├── 📂 styles          # Archivos de estilos CSS o SCSS
+│    │    ├── global.css    # Estilos globales
+│    │    ├── header.css    # Estilos para el Header
+│    │    ├── footer.css    # Estilos para el Footer
+│    │
+│    ├── 📂 images          # Carpeta con imágenes locales
+│    │
+│    ├── 📂 utils           # Funciones auxiliares o lógica reutilizable
+│    │    ├── helpers.js
+│    │
+│    ├── 📂 context         # Estado global con React Context API
+│    │    ├── CartContext.jsx
+│    │
+│    ├── 📂 protected       # Carpeta para archivos con información sensible
+│    │    ├── config.env    # Claves API y configuración privada (debe quedar protegida)
+│    │
+│    ├── App.jsx            # Componente principal
+│    ├── index.js           # Punto de entrada de React
+│
+│── 📂 node_modules         # Dependencias instaladas
+│── 📜 package.json         # Configuración del proyecto y dependencias
+│── 📜 .gitignore           # Archivos que deben ignorarse en Git
+│── 📜 README.md            # Documentación del proyecto
