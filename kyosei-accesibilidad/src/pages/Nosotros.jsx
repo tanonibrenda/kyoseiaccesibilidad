@@ -43,6 +43,24 @@ const Nosotros = () => {
             </p>
           </section>
         </div>
+
+        {/* valores */}
+        <div className="contenido">
+          {/* Imagen a la izquierda */}
+          <aside className="imagen">
+            <img src="../../public/assets/valores.png" alt="muejer en silla de ruedas con sus perros" />
+          </aside>
+
+          {/* Texto a la derecha */}
+          <section className="texto">
+            <h2>Nuestros Valores</h2>
+            <h3>Kyosei, la búsqueda del bien común</h3>
+            <p className="parrafo">
+             Nuestra filosofía central. Significa trabajar en comunidad para el bien común. Cada decisión, cada servicio y cada acción está orientada hacia el bienestar colectivo. Creemos que la prosperidad mutua se alcanza cuando todas las personas pueden participar plenamente en la sociedad.
+            </p>
+          </section>
+        </div>
+
       </main>
       {/* <Footer /> */}
     </>
