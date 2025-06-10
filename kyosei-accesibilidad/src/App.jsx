@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header.jsx"; // Importa el Header
-import Home from "./components/pages/Home.jsx";
+import Home from "./pages/Home.jsx";
 
 import "./styles/header.css";
 
