@@ -1,0 +1,105 @@
+/* Contenedor principal */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 30px;
+  min-height: calc(100vh - 80px);
+  justify-content: space-between;
+  margin-bottom: 220px;
+  margin-top: 250px;
+}
+main {
+  flex: 1; /* Expande main para evitar que el footer suba */
+  width: 100%;
+}
+
+/* Título */
+.titulo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #004aad;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Sección de cursos */
+.curso, .testing {
+  max-width: 800px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+h1{
+    font-size: 4rem;
+    color: #000000;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #004aad;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+ul {
+  list-style: disc;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.boton {
+  padding: 10px 20px;
+  background-color: #004aad;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+}
+
+.boton:hover {
+  background-color: #003080;
+}
+img{
+    max-width: 100px;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contenedor {
+    padding: 20px;
+  }
+
+  .titulo {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .boton {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+/* footer {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  background-color: #f1f1f1;
+} */
