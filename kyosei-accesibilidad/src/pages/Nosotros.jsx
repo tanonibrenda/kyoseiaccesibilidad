@@ -27,6 +27,22 @@ const Nosotros = () => {
             </p>
           </section>
         </div>
+
+        {/* Visión */}
+          <div className="contenido">
+          {/* Imagen a la izquierda */}
+          <aside className="imagen">
+            <img src="../../public/assets/vision.jpg" alt="Grupos de personas leyendo una descripción en Braille" />
+          </aside>
+
+          {/* Texto a la derecha */}
+          <section className="texto">
+            <h2>Nuestra Visión</h2>
+            <p className="parrafo">
+             Ser catalizadoras del cambio hacia una sociedad verdaderamente inclusiva, donde la accesibilidad sea la norma, no la excepción. Aspiramos a expandir continuamente nuestros servicios para eliminar barreras  en todos los ámbitos de la vida, creando un ecosistema donde todas las personas puedan prosperar juntas
+            </p>
+          </section>
+        </div>
       </main>
       {/* <Footer /> */}
     </>
