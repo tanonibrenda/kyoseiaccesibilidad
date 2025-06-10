@@ -48,7 +48,7 @@ const Nosotros = () => {
         <div className="contenido">
           {/* Imagen a la izquierda */}
           <aside className="imagen">
-            <img src="../../public/assets/valores.png" alt="muejer en silla de ruedas con sus perros" />
+            <img src="../../public/assets/valores.png" alt="mujer en silla de ruedas con sus perros" />
           </aside>
 
           {/* Texto a la derecha */}
@@ -61,6 +61,63 @@ const Nosotros = () => {
           </section>
         </div>
 
+{/* inclusion universal */}
+
+<div className="contenido">
+          {/* Imagen a la izquierda */}
+          <aside className="imagen">
+            <img src="../../public/assets/INCLUSIÓN UNIVERSAL.png" alt="manos de un anciano" />
+          </aside>
+
+          {/* Texto a la derecha */}
+          <section className="texto">
+            <h3>Inclusión Universal</h3>
+            
+            <p className="parrafo">
+             La accesibilidad es un derecho, no un privilegio. Trabajamos para que cada experiencia digital sea accesible por diseño, eliminando barreras que impiden la participación plena de las personas. <br />
+             Por eso trabajamos con amor, pasión y tenacidad resiliente; para generar un impacto social auténtico.
+            </p>
+          </section>
+        </div>
+
+        {/* Ximena */}
+
+<div className="contenido">
+          {/* Imagen a la izquierda */}
+          <aside className="imagen">
+            <img src="../../public/assets/Ximena Romero.png" alt="Foto de Ximena Romero" />
+          </aside>
+
+          {/* Texto a la derecha */}
+          <section className="texto">
+            <h3>Ximena Romero</h3>
+            
+            <p className="parrafo">
+             Tester en Accesibilidad de 5 años de experiencia. Me encanta trabajar con personas que desafían las barreras y me inspira la creatividad y la innovación.
+            </p>
+            <a href="https://www.linkedin.com/in/ximenaromero81/" aria-label="Ir a LinkedIn" target="_blank"><img src="../../public/assets/linkedin_black_logo_icon_147114.svg" alt="" /></a>
+            <a href="https://github.com/ximenaRomero" aria-label="Enviar Email" target="_blank"><img src="../../public/assets/github-mark-white.svg" alt=""/><img src="../../public/assets/envelope_mail_icon-icons.com_66119.svg" alt="" className="envelope"/></a>
+          </section>
+        </div>
+
+        {/* Brenda */}
+<div className="contenido">
+          {/* Imagen a la izquierda */}
+          <aside className="imagen">
+            <img src="../../public/assets/Brenda Tanoni.png" alt="Foto de Brenda Tanoni" />
+          </aside>
+
+          {/* Texto a la derecha */}
+          <section className="texto">
+            <h3>Brenda Tanoni</h3>
+            
+            <p className="parrafo">
+             Médica. Docente. Estudiante de programación. QA junior. Siempre buscando aprender y mejorar.
+            </p>
+            <a href="https://www.linkedin.com/in/brenda-yohena-tanoni-82430146/" aria-label="Ir a LinkedIn" target="_blank"><img src="../../public/assets/linkedin_black_logo_icon_147114.svg" alt="" /></a>
+            <a href="mailto:brendayohenatanoni@gmail.com" aria-label="Enviar Email" target="_blank"><img src="../../public/assets/github-mark-white.svg" alt=""/><img src="../../public/assets/envelope_mail_icon-icons.com_66119.svg" alt="" className="envelope"/></a>
+          </section>
+        </div>
       </main>
       {/* <Footer /> */}
     </>
