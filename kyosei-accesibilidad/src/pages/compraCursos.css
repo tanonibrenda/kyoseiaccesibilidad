@@ -1,45 +1,79 @@
 .compra-container {
-    max-width: 500px;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
+  text-align: center;
+  padding: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.payment-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-label {
-    text-align: left;
-    font-weight: bold;
+.payment-method {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }
 
-input, select {
-    color: #000 !important;
-    background-color: #d3d3d3;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-size: 16px;
-    width: 100%;
+.logo-img {
+  width: 150px;
+  margin-top: 10px;
 }
 
-button {
-    background-color: #007bff;
-    color: white;
-    padding: 12px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
+.payment-method span {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
-button:hover {
-    background-color: #0056b3;
+/* Botón PayPal */
+.paypal-button {
+  background-color: #0070ba;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
+.paypal-button:hover {
+  background-color: #005c9e;
+}
+
+/* Botón MercadoPago */
+.mercadopago-button {
+  background-color: #00a650;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mercadopago-button:hover {
+  background-color: #008f48;
+}
+
+/* 🌍 Responsividad */
 @media (max-width: 768px) {
-    .compra-container {
-        width: 90%;
-    }
+  .payment-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .payment-method {
+    width: 100%;
+  }
+
+  .logo-img {
+    width: 120px;
+  }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+// import Header from "../components/Header";
+// import Footer from "../components/Footer";
 import "./servicios.css";
 
 const Servicios = () => {
@@ -32,7 +32,7 @@ const Servicios = () => {
 
           <div className="botones">
             <Link to="/compra-cursos" className="boton">Comprar Curso</Link>
-            <Link to="/info-curso" className="boton">Más Información</Link>
+            <Link to="/contacto" className="boton">Más Información</Link>
           </div>
         </section>
 
@@ -43,7 +43,7 @@ const Servicios = () => {
             Nuestro servicio de testing identifica obstáculos para garantizar que tu plataforma sea inclusiva, intuitiva y eficiente.
             Cumple con normativas, mejora la experiencia del usuario y expande tu mercado.
           </p>
-          <Link to="/info-testing" className="boton">Más Información</Link>
+          <Link to="/contacto" className="boton">Más Información</Link>
         </section>
       </main>
       {/* <Footer /> */}
