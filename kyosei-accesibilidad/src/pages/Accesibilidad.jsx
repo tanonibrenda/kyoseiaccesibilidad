@@ -7,6 +7,7 @@ const Accesibilidad = () => {
   return (
     <>
       {/* <Header /> */}
+      <div className="accesibilidad">
       <main className="contenedor">
         {/* Título principal */}
         <h1 className="titulo">Accesibilidad</h1>
@@ -38,10 +39,11 @@ const Accesibilidad = () => {
 
           {/* Sección derecha con imagen */}
           <aside className="imagen">
-            <img src="../../public/assets/Accesibilidad.png" alt="Persona en silla de ruedas frente a una escalera" />
+            <img src="../../src/assets/Accesibilidad.png" alt="Persona en silla de ruedas frente a una escalera" />
           </aside>
         </section>
       </main>
+      </div>
       {/* <Footer /> */}
     </>
   );

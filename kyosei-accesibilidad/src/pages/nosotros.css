@@ -8,6 +8,9 @@ body, html {
   padding: 0;
   font-family: Arial, sans-serif;
 }
+.accesibilidad{
+  padding: 20px;
+}
 .nosotros-container{
   display: flex;
   flex-direction: column;
@@ -28,7 +31,10 @@ body, html {
   align-items: center;
   gap: 20px;
 }
-
+img{
+  padding: 10px;
+  border-radius: 8px;
+}
 /* Ajuste responsive */
 @media (max-width: 768px) {
   .header, .footer {
