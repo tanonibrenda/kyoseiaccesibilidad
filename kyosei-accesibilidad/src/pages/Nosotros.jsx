@@ -7,6 +7,7 @@ const Nosotros = () => {
   return (
     <>
       {/* <Header /> */}
+      <div className="nosotros-container">
       <main className="contenedor">
         {/* Título centrado arriba */}
         <h1 className="titulo">Nosotros</h1>
@@ -119,6 +120,7 @@ const Nosotros = () => {
           </section>
         </div>
       </main>
+      </div>
       {/* <Footer /> */}
     </>
   );
