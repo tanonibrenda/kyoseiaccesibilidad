@@ -1,0 +1,53 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.accesibilidad{
+  padding: 20px;
+}
+.nosotros-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%
+}
+
+
+/* Contenedor principal */
+.contenedor {
+ 
+  padding-top: 200px; /* espacio suficiente para el header */
+  padding-bottom: 600px; /* espacio suficiente para el footer */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+img{
+  padding: 10px;
+  border-radius: 8px;
+}
+/* Ajuste responsive */
+@media (max-width: 768px) {
+  .header, .footer {
+    height: 60px;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .contenedor {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+p{
+  padding: 20px;
+}

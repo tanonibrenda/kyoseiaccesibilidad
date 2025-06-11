@@ -1,0 +1,72 @@
+.header {
+  background-color: #004aad; /* Color accesible con buen contraste */
+  padding: 15px 0;
+}
+
+.logo {
+  height: 50px; /* Tamaño del logo */
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Mejora la accesibilidad al indicar selección */
+}
+
+
+
+/* Estilos generales */
+.header {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #000000; /* Texto negro */
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para mejorar contraste */
+}
+
+.logo {
+  height: 50px; /* Tamaño del logo */
+  max-width: 100%; /* Que no se sobrepase en móviles */
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #000000 !important; /* Color accesible para el texto */
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: underline; /* Indicador visual accesible */
+}
+
+.navbar-toggler {
+  border: none; /* Quitar borde del botón hamburguesa */
+  background: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  outline: 2px solid #000; /* Mejora accesibilidad para teclado */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-link {
+    font-size: 16px; /* Tamaño más legible en móviles */
+  }
+}
