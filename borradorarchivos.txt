@@ -8,8 +8,8 @@
 │    ├── 📂 components      # Componentes reutilizables (Header, Footer, Botones, etc.)
 │    │    ├── Header.jsx
 │    │    ├── Footer.jsx
-│    │    ├── Navbar.jsx
-│    │    ├── Button.jsx
+│    │    
+│    │    
 │    │
 │    ├── 📂 pages           # Páginas principales del sitio
 │    │    ├── Home.jsx
@@ -18,11 +18,12 @@
 │    │    ├── Servicios.jsx
 │    │    ├── Contacto.jsx
 │    │    ├── Carrito.jsx
+|    |    ├── accesibilidad.css
 │    │
-│    ├── 📂 styles          # Archivos de estilos CSS o SCSS
-│    │    ├── global.css    # Estilos globales
-│    │    ├── header.css    # Estilos para el Header
-│    │    ├── footer.css    # Estilos para el Footer
+│    ├── 📂 styles          # Archivos de estilos CSS o SCSS quedó vacia
+│    │    
+│    │    
+│    │    
 │    │
 │    ├── 📂 images          # Carpeta con imágenes locales
 │    │

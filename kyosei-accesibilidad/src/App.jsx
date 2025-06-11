@@ -6,6 +6,7 @@ import Nosotros from "./pages/Nosotros.jsx";
 import Footer from "./components/Footer";
 import Accesibilidad from "./pages/Accesibilidad.jsx";
 import Servicios from "./pages/Servicios.jsx";
+import Contacto from "./pages/Contacto.jsx";
 import NotFound from "./pages/404.jsx";
 import "./styles/header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,7 +20,8 @@ function App() {
         <Route path="/nosotros" element={<Nosotros />} />  {/* Página Nosotros */}
         <Route path="/accesibilidad" element={<Accesibilidad />} /> 
         <Route path="/servicios" element={<Servicios />} />
-         <Route path="*" element={<NotFound />} /> 
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="*" element={<NotFound />} /> 
       </Routes>
       <Footer />
     </Router>

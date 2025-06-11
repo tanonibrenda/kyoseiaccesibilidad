@@ -1,0 +1,69 @@
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+input, textarea {
+    background-color: #f1efef;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    color: #000000 !important;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p[aria-live="polite"] {
+    color: green;
+    font-weight: bold;
+}
+input[type="email"] {
+    color: #000 !important; /* Fuerza el color negro */
+}
+
+
+/* 🌐 Responsivo */
+@media (max-width: 768px) {
+    .contact-container {
+        width: 90%;
+    }
+}
+/* 📱 Responsive */
+@media (max-width: 480px) {
+  .contacto-titulo {
+    font-size: 2rem;
+  }
+
+  .boton-enviar {
+    width: 100%;
+    align-self: stretch;
+  }
+}
