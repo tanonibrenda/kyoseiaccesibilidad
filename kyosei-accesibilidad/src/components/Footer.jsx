@@ -9,7 +9,7 @@ const Footer = () => {
         <Row className="align-items-center">
           {/* Logo */}
           <Col xs={12} md={4} className="text-center text-md-start">
-            <img src="../../public/assets/logosimple1.png" alt="Kyosei Accesibilidad - Logotipo" className="logo-footer" />
+            <img src="../src/assets/logosimple1.png" alt="Kyosei Accesibilidad - Logotipo" className="logo-footer" />
           </Col>
 
           {/* Navegación */}

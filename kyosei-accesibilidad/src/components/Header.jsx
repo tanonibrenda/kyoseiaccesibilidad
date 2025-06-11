@@ -9,7 +9,7 @@ const Header = () => {
         {/* Logotipo */}
         <Navbar.Brand href="/">
           <img
-            src="/assets/logosimple1.png"
+            src="../src/assets/logosimple1.png"
             alt="Kyosei Accesibilidad - Logotipo"
             className="logo"
           />

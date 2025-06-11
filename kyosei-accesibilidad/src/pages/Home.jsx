@@ -13,8 +13,7 @@ const Home = () => {
 
       <section className="flex-fill text-center">
         <img
-          src="/assets/braille.jpg"
-          alt="Persona leyendo en Braille"
+          src="../src/assets/braille.jpg"          alt="Persona leyendo en Braille"
           className="img-fluid rounded"
           style={{ maxWidth: "100%", height: "auto" }}
         />

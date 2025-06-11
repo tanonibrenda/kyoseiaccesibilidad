@@ -14,7 +14,7 @@ const Nosotros = () => {
         <div className="contenido">
           {/* Imagen a la izquierda */}
           <aside className="imagen">
-            <img src="/assets/MISIÓN.png" alt="Manos protegiendo figuras de papel representando diversidad e inclusión como nuestra misión" />
+            <img src="../src/assets/MISIÓN.png" alt="Manos protegiendo figuras de papel representando diversidad e inclusión como nuestra misión" />
           </aside>
 
           {/* Texto a la derecha */}
@@ -32,7 +32,7 @@ const Nosotros = () => {
           <div className="contenido">
           {/* Imagen a la izquierda */}
           <aside className="imagen">
-            <img src="../../public/assets/vision.jpg" alt="Grupos de personas leyendo una descripción en Braille" />
+            <img src="../../src/assets/vision.jpg" alt="Grupos de personas leyendo una descripción en Braille" />
           </aside>
 
           {/* Texto a la derecha */}
@@ -48,7 +48,7 @@ const Nosotros = () => {
         <div className="contenido">
           {/* Imagen a la izquierda */}
           <aside className="imagen">
-            <img src="../../public/assets/valores.png" alt="mujer en silla de ruedas con sus perros" />
+            <img src="../../src/assets/valores.png" alt="mujer en silla de ruedas con sus perros" />
           </aside>
 
           {/* Texto a la derecha */}
@@ -66,7 +66,7 @@ const Nosotros = () => {
 <div className="contenido">
           {/* Imagen a la izquierda */}
           <aside className="imagen">
-            <img src="../../public/assets/INCLUSIÓN UNIVERSAL.png" alt="manos de un anciano" />
+            <img src="../../src/assets/INCLUSIÓN UNIVERSAL.png" alt="manos de un anciano" />
           </aside>
 
           {/* Texto a la derecha */}
@@ -85,7 +85,7 @@ const Nosotros = () => {
 <div className="contenido">
           {/* Imagen a la izquierda */}
           <aside className="imagen">
-            <img src="../../public/assets/Ximena Romero.png" alt="Foto de Ximena Romero" />
+            <img src="../../src/assets/Ximena Romero.png" alt="Foto de Ximena Romero" />
           </aside>
 
           {/* Texto a la derecha */}
@@ -104,7 +104,7 @@ const Nosotros = () => {
 <div className="contenido">
           {/* Imagen a la izquierda */}
           <aside className="imagen">
-            <img src="../../public/assets/Brenda Tanoni.png" alt="Foto de Brenda Tanoni" />
+            <img src="../src/assets/Brenda Tanoni.png" alt="Foto de Brenda Tanoni" />
           </aside>
 
           {/* Texto a la derecha */}
