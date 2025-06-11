@@ -16,7 +16,7 @@ const Servicios = () => {
         {/* Sección de cursos */}
         <section className="curso">
           <h2>Taller Moodle Accesible</h2>
-          <img src="../../public/assets/moodle_original_logo_icon_146420.png" alt="logo Moodle" />
+          <img src="../../src/assets/moodle_original_logo_icon_146420.png" alt="logo Moodle" />
           <p>
             Taller teórico práctico orientado a docentes que imparten clases en la plataforma Moodle. 
             Aprenderás herramientas esenciales para garantizar la accesibilidad digital en educación.
