@@ -43,3 +43,17 @@
 │── 📜 package.json         # Configuración del proyecto y dependencias
 │── 📜 .gitignore           # Archivos que deben ignorarse en Git
 │── 📜 README.md            # Documentación del proyecto
+
+paypal
+
+<style>.pp-7SYYCQJ38BCZE{text-align:center;border:none;border-radius:0.25rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
+<form action="https://www.paypal.com/ncp/payment/7SYYCQJ38BCZE" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
+  <input class="pp-7SYYCQJ38BCZE" type="submit" value="Comprar ahora" />
+  <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />
+  <section style="font-size: 0.75rem;"> Con la tecnología de <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
+</form>
+
+mercadopago
+<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="63036029-90ccfae0-4ffe-400b-95b6-dce1da7fb53a" data-source="button">
+</script>

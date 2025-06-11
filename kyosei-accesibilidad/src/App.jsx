@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Accesibilidad from "./pages/Accesibilidad.jsx";
 import Servicios from "./pages/Servicios.jsx";
 import Contacto from "./pages/Contacto.jsx";
+import CompraCursos from "./pages/CompraCursos";
 import NotFound from "./pages/404.jsx";
 import "./styles/header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -21,6 +22,7 @@ function App() {
         <Route path="/accesibilidad" element={<Accesibilidad />} /> 
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/compra-cursos" element={<CompraCursos />} />
         <Route path="*" element={<NotFound />} /> 
       </Routes>
       <Footer />

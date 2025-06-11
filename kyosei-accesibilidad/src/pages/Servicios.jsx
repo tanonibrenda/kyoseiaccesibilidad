@@ -31,7 +31,7 @@ const Servicios = () => {
           <p><strong>Primera Comisión: Agosto 2025</strong></p>
 
           <div className="botones">
-            <Link to="/comprar" className="boton">Comprar Curso</Link>
+            <Link to="/compra-cursos" className="boton">Comprar Curso</Link>
             <Link to="/info-curso" className="boton">Más Información</Link>
           </div>
         </section>
